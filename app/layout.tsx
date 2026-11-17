@@ -22,11 +22,6 @@ export default function RootLayout({
         <Footer />
         <Analytics />
       </body>
-      <body>
-  <Navbar />
-  {children}
-  <Footer />
-</body>
     </html>
   );
 }
